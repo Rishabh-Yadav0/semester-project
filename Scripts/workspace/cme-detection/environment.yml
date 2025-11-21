@@ -1,0 +1,15 @@
+name: cme-detection
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - pytest
+  - scipy
+  - seaborn
+  - pip
+  - pip:
+      - some-package-you-need
